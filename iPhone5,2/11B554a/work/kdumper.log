@@ -1,0 +1,17 @@
+-
+Kernel base is 0x83800000.
+kernel pmap is at 0x83b2f01c.
+kernel pmap details: tte_virt: 0x84714000 tte_phys: 0x80f14000
+New TTEs generated, base address for remap: 0x80000000, physBase: 0xbfe00000
+======================================================================================
+!!!! Kernel TTE entries written. System stability is no longer guaranteed.
+!!!! Security has also been reduced by an exponential factor. You have been warned.
+======================================================================================
+sysent_common_base: 0x7f320610
+iOS 7 detected, adjusting base to 0x7f320610 = 0x00000000
+Tramp 7f01e018 COMMMAP
+e79fe00e, eaffffff
+feedface
+Syncing disks.
+Magic happening now. (attempted!)
+written = 1044480

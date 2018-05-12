@@ -1,0 +1,5 @@
+#!/bin/sh
+
+dd of=/dev/rdisk0s1s1 if=backup bs=512k count=1
+nvram -d boot-ramdisk
+rm backup

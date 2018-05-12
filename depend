@@ -1,0 +1,4 @@
+# DO NOT DELETE
+
+lzss.o: lzss.h
+iloader.o: endian.h lzss.h asm.h target/iBoot.h

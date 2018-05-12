@@ -1,0 +1,6 @@
+boot-ramdisk=/a/b/c/d/e/f/g/h/i/j/k/l/m/disk.dmg
+
+# nvram boot-ramdisk="/a/b/c/d/e/f/g/h/i/j/k/l/m/disk.dmg"
+# nvram -d boot-ramdisk
+
+Changes to NVRAM variables are only saved by clean restart or shutdown.

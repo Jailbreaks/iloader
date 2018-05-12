@@ -1,0 +1,87 @@
+/private/var/root # mount_hfs /dev/disk0s1s2 /mnt1
+mount_hfs: Could not create property for re-key environment check: No such file or directory
+/private/var/root # DYLD_INSERT_LIBRARIES=/usr/lib/libpatch.dylib /usr/libexec/ramrod/ramrod 
+hooked f0534 _dlsym
+entering set_boot_stage
+hooked f0534 _dlsym
+display-scale = 2
+display-rotation = 0
+found applelogo at /usr/share/progressui/applelogo@2x.tga
+found display: primary
+display: 640 x 1136
+patchd: ramrod_register_plugin(3254): built Jun 11 2014 20:21:41.
+Searching for NAND service
+Found NAND service: IOFlashStoragePartition
+NAND initialized. Waiting for devnode.
+entering ramrod_probe_media
+device partitioning scheme is GPT
+device supports boot-from-NAND
+nand device is already partitioned
+executing /usr/sbin/nvram
+patchd: ramrod_register_plugin(3274): nvram variable 'enable-remap-mode' cleared 
+---
+entering create_update_partition_with_reserve
+entering adjust_partition_preflight
+partition:2 requiredSize=0
+update partition does not exist
+entering adjust_partition_preflight
+partition:2 requiredSize=128
+entering _get_partition_size
+shrinking 13641 MB data partition to make room for 524288 bytes (0 MB) needed
+entering adjust_partition_preflight
+partition:1 requiredSize=3492010
+scanning 3 filesystems for 261A395A-2BF1-D94D-9D01-CAE150F5D05B
+failed to find an IOService owning md0 (unexpected)
+UUID 261A395A-2BF1-D94D-9D01-CAE150F5D05B match
+matched /dev/disk0s1s2 on /mnt1
+scanning 3 filesystems for 5F648DA1-36CA-459E-B8C6-6E0522388F02
+failed to find an IOService owning md0 (unexpected)
+UUID 261A395A-2BF1-D94D-9D01-CAE150F5D05B does not match
+scanning 3 filesystems for 261A395A-2BF1-D94D-9D01-CAE150F5D05B
+failed to find an IOService owning md0 (unexpected)
+UUID 261A395A-2BF1-D94D-9D01-CAE150F5D05B match
+matched /dev/disk0s1s2 on /mnt1
+Device disk0s1s2 has UUID 261A395A-2BF1-D94D-9D01-CAE150F5D05B
+shrinking HFS filesystem on /mnt1 from 14303797248 to 14303272960
+Resizing existing partition with GPT index 1
+entering _unmount_lwvm_devices
+Unmounting filesystem: /mnt1
+About to adjust with settings partionIndex:1 size:13640 MB
+Wrote GPT header back to disk
+Remounting LwVM volumes that were previously mounted
+entering _mount_lwvm_devices
+libpartition, mounting '/dev/disk0s1s2' at '/mnt1'
+mount_hfs: Could not create property for re-key environment check: No such file or directory
+
+trying update partition creation again
+entering adjust_partition_preflight
+partition:2 requiredSize=128
+scanning 3 filesystems for 00000000-0000-0000-0000-000000000000
+failed to find an IOService owning md0 (unexpected)
+UUID 261A395A-2BF1-D94D-9D01-CAE150F5D05B does not match
+scanning 3 filesystems for 5F648DA1-36CA-459E-B8C6-6E0522388F02
+failed to find an IOService owning md0 (unexpected)
+UUID 261A395A-2BF1-D94D-9D01-CAE150F5D05B does not match
+scanning 3 filesystems for 261A395A-2BF1-D94D-9D01-CAE150F5D05B
+failed to find an IOService owning md0 (unexpected)
+UUID 261A395A-2BF1-D94D-9D01-CAE150F5D05B match
+matched /dev/disk0s1s2 on /mnt1
+Device disk0s1s2 has UUID 261A395A-2BF1-D94D-9D01-CAE150F5D05B
+Creating new partition instead of adjusting existing one
+entering _unmount_lwvm_devices
+Unmounting filesystem: /mnt1
+About to adjust with settings partionIndex:2 size:0 MB
+Wrote GPT header back to disk
+Remounting LwVM volumes that were previously mounted
+entering _mount_lwvm_devices
+libpartition, mounting '/dev/disk0s1s2' at '/mnt1'
+mount_hfs: Could not create property for re-key environment check: 
+No such file or directory
+
+===
+ramrod exited with status 1 - rebooting
+device supports boot-from-NAND
+nand device is already partitioned
+executing /usr/sbin/nvram
+executing /sbin/reboot
+reboot in progress, hanging

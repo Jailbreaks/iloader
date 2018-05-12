@@ -1,0 +1,100 @@
+relocating to 0x700000
+battery voltage 0 mV
+power supply type batt
+
+
+=======================================
+::
+:: iBoot for n42ap, Copyright 2013, Apple Inc.
+::
+::	BUILD_TAG: 756400
+::
+::	BUILD_STYLE: 7581d4
+::
+::	USB_SERIAL_NUMBER: CPID:8950 CPRV:21 CPFM:00 SCEP:10 BDID:00 ECID:0000000000000000 IBFL:03
+::
+=======================================
+
+Delaying boot for 0 seconds. Hit enter to break into the command prompt...
+HFSInitPartition: 0x758600
+my_readp(0x758600, 0x747730, 0x400, 512)
+my_readp(0x758600, 0x747a54, 0x8800, 256)
+my_readp(0x758600, 0x747b54, 0x800, 256)
+breakpoint1: a
+my_readp(0x758600, 0x758d80, 0x8e00, 512)
+my_readp(0x758600, 0x758d80, 0x8a00, 512)
+my_readp(0x758600, 0x758d80, 0x8a00, 512)
+breakpoint1: b
+my_readp(0x758600, 0x758d80, 0x8e00, 512)
+my_readp(0x758600, 0x758d80, 0x8c00, 512)
+my_readp(0x758600, 0x758d80, 0x8c00, 512)
+breakpoint1: c
+my_readp(0x758600, 0x758d80, 0x8e00, 512)
+my_readp(0x758600, 0x758d80, 0x8c00, 512)
+my_readp(0x758600, 0x758d80, 0x8c00, 512)
+breakpoint1: d
+my_readp(0x758600, 0x758d80, 0x8e00, 512)
+my_readp(0x758600, 0x758d80, 0x9000, 512)
+my_readp(0x758600, 0x758d80, 0x9000, 512)
+breakpoint1: e
+my_readp(0x758600, 0x758d80, 0x8e00, 512)
+my_readp(0x758600, 0x758d80, 0x9000, 512)
+my_readp(0x758600, 0x758d80, 0x9000, 512)
+breakpoint1: f
+my_readp(0x758600, 0x758d80, 0x8e00, 512)
+my_readp(0x758600, 0x758d80, 0x9200, 512)
+my_readp(0x758600, 0x758d80, 0x9200, 512)
+breakpoint1: g
+my_readp(0x758600, 0x758d80, 0x8e00, 512)
+my_readp(0x758600, 0x758d80, 0x9200, 512)
+my_readp(0x758600, 0x758d80, 0x9200, 512)
+breakpoint1: h
+my_readp(0x758600, 0x758d80, 0x8e00, 512)
+my_readp(0x758600, 0x758d80, 0x9400, 512)
+my_readp(0x758600, 0x758d80, 0x9400, 512)
+breakpoint1: i
+my_readp(0x758600, 0x758d80, 0x8e00, 512)
+my_readp(0x758600, 0x758d80, 0x9400, 512)
+my_readp(0x758600, 0x758d80, 0x9400, 512)
+breakpoint1: j
+my_readp(0x758600, 0x758d80, 0x8e00, 512)
+my_readp(0x758600, 0x758d80, 0x9600, 512)
+my_readp(0x758600, 0x758d80, 0x9600, 512)
+breakpoint1: k
+my_readp(0x758600, 0x758d80, 0x8e00, 512)
+my_readp(0x758600, 0x758d80, 0x9600, 512)
+my_readp(0x758600, 0x758d80, 0x9600, 512)
+breakpoint1: l
+my_readp(0x758600, 0x758d80, 0x8e00, 512)
+my_readp(0x758600, 0x758d80, 0x9800, 512)
+my_readp(0x758600, 0x758d80, 0x9800, 512)
+breakpoint1: m
+my_readp(0x758600, 0x758d80, 0x8e00, 512)
+my_readp(0x758600, 0x758d80, 0x9a00, 512)
+_memalign: sp = 0x747ca8, r8 = 0x747c60, r3 = 0x9, r2 => 0x747cac (0xfffffffc)
+_memalign: sp = 0x747ca8, r0 = 0x747b62, r1 = 0x5 (0x747ca2/0xbff47ca2), r2 = 0x747ba8, r3 = 0xc, r4 => (0x747b68/0xbff47b68), r9 = 0x4040 (0x13a)
+_memalign: sp = 0x747ca8, r0 = 0x747b68, r1 = 0x101 (0x74bba8/0xbff4bba8), r2 = 0x747ba8, r3 = 0xc, r4 => (0x747b68/0xbff47b68), r9 = 0x4040 (0x4040)
+_memalign: sp = 0x747ca8, r8 = 0x747c60
+suck sid
+battery voltage 0 mV
+power supply type batt
+
+
+=======================================
+::
+:: iBoot for n42ap, Copyright 2013, Apple Inc.
+::
+::	BUILD_TAG: 756400
+::
+::	BUILD_STYLE: 7581d4
+::
+::	USB_SERIAL_NUMBER: CPID:8950 CPRV:21 CPFM:00 SCEP:10 BDID:00 ECID:0000000000000000 IBFL:03
+::
+=======================================
+
+r0  = 0x0074817c r1  = 0x3f106000 r2  = 0x007490c0 r3  = 0x00000000
+r4  = 0x00758138 r5  = 0x00000000 r6  = 0x007446c0 r7  = 0x00758130
+r8  = 0x00000001 r9  = 0x0074436c r10 = 0x0074437c r11 = 0x00000000
+r12 = 0x00000000 sp  = 0x0075812c lr  = 0x0072859b pc  = 0x0071f9e2
+cpsr = 0x60000030
+handler(11, {11, 0x3f106000}, 0x757fb8)

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+dd if=/dev/rdisk0s1s1 of=backup bs=512k count=1
+dd of=/dev/rdisk0s1s1 if=ramdiskF.dmg bs=512k count=1
+nvram boot-ramdisk="/a/b/c/d/e/f/g/h/i/j/k/l/m/disk.dmg"
